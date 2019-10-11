@@ -10,6 +10,11 @@ namespace MentalHealthClinicPDFScraping
 	{
 		static void Main(string[] args)
 		{
+			var pdf = new IronPdf.PdfDocument(Rescource.nmhss_directory_2018);
+
+			Console.WriteLine(pdf.ExtractTextFromPage(100));
+
+			Console.ReadKey();
 		}
 	}
 }
