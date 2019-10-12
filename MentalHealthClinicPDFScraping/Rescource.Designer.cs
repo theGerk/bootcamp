@@ -61,6 +61,16 @@ namespace MentalHealthClinicPDFScraping {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Hello world!
+        ///Bye world!.
+        /// </summary>
+        internal static string hellogoodbye {
+            get {
+                return ResourceManager.GetString("hellogoodbye", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized resource of type System.Byte[].
         /// </summary>
         internal static byte[] nmhss_directory_2018 {
